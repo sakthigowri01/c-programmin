@@ -1,0 +1,30 @@
+
+int main()
+{
+    char str[MAX_SIZE];
+    int alphabets, digits, others, i;
+
+    alphabets = digits = others = i = 0;
+
+
+    /* Input string from user */
+    printf("Enter any string : ");
+    gets(str);
+
+    /*
+     * Check each character of string for alphabet, digit or special character
+     */
+    while(str[i]!='\0')
+    {
+        if((str[i]>='a' && str[i]<='z') || (str[i]>='A' && str[i]<='Z'))
+      
+        }
+
+        i++;
+    }
+
+    printf("Digits = %d\n", digits);
+    printf("Special characters = %d", others);
+
+    return 0;
+}
